@@ -16,6 +16,10 @@ superior performances in identifying AMPs and their functional types compared wi
 an user-friendly web server based on this framework (http://iampcn.erc.monash.edu/) for the public to use. We sincerely hope iAMPCN serves 
 as a prominent tool for identiying potential AMPs and their speicific functions that can be experimentally validated.
 ![image](https://user-images.githubusercontent.com/93033749/196317233-da4d5114-b32e-4df3-8f7c-08282a109cf5.png)
+## Environment
+* Ubuntu
+* Anaconda
+* python 3.8
 ## Dependency
 * biopython                     1.79
 * Flask                         2.1.2
@@ -30,6 +34,9 @@ as a prominent tool for identiying potential AMPs and their speicific functions 
 ```
 git clone 
 conda create -n iampcn python==3.8
-
+pip install numpy
+pip install pandas
+pip install biopython
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 ## Usage
