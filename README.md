@@ -33,7 +33,7 @@ as a prominent tool for identiying potential AMPs and their speicific functions 
 * tqdm                          4.64.0
 ## Installation Guide
 ```
-git clone 
+git clone https://github.com/joy50706/iAMPCN.git
 conda create -n iampcn python==3.8
 pip install numpy
 pip install pandas
