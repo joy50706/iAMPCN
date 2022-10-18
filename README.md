@@ -27,5 +27,7 @@ as a prominent tool for identiying potential AMPs and their speicific functions 
 * wheel                         0.37.1
 * numpy                         1.23.1
 ## Installation Guide
-`fds`
+`git clone 
+conda create -n iampcn python==3.8
+`
 ## Usage
