@@ -17,14 +17,14 @@ an user-friendly web server based on this framework (http://iampcn.erc.monash.ed
 as a prominent tool for identiying potential AMPs and their speicific functions that can be experimentally validated.
 ![image](https://user-images.githubusercontent.com/93033749/196317233-da4d5114-b32e-4df3-8f7c-08282a109cf5.png)
 ## Dependency
-biopython                     1.79
-  Flask                         2.1.2
-  Flask-PyMongo                 2.3.0
-pandas                        1.4.2
-scikit-learn                  1.1.1
-scipy                         1.8.1
-torch                         1.12.1
-wheel                         0.37.1
-numpy                         1.23.1
+* biopython                     1.79
+* Flask                         2.1.2
+* Flask-PyMongo                 2.3.0
+* pandas                        1.4.2
+* scikit-learn                  1.1.1
+* scipy                         1.8.1
+* torch                         1.12.1
+* wheel                         0.37.1
+* numpy                         1.23.1
 ## Installation Guide
 ## Usage
