@@ -41,5 +41,6 @@ pip install biopython
 pip install tqdm
 pip install -U scikit-learn
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
+cd iAMPCN
 ```
 ## Usage
