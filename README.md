@@ -44,3 +44,16 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 cd iAMPCN
 ```
 ## Usage
+```
+python predict.py -test_fasta_file {fasta file for predicting} -output_file_name {file name of prediction results}
+```
+For example:
+* using the example test fasta file (examples/samples.fasta)
+```
+python predict.py -test_fasta_file examples/samples.fasta -output_file_name prediction_results
+```
+or 
+```
+python predict.py -test_fasta_file {fasta file for predicting} -output_file_name {file name of prediction results}
+```
+* using other files, just change the file name, the final prediction results will be saved using the '.csv' format.
