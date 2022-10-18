@@ -30,6 +30,7 @@ as a prominent tool for identiying potential AMPs and their speicific functions 
 * torch                         1.12.1
 * wheel                         0.37.1
 * numpy                         1.23.1
+* tqdm                          4.64.0
 ## Installation Guide
 ```
 git clone 
@@ -37,6 +38,7 @@ conda create -n iampcn python==3.8
 pip install numpy
 pip install pandas
 pip install biopython
+pip install tqdm
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 ## Usage
