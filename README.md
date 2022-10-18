@@ -18,8 +18,8 @@ as a prominent tool for identiying potential AMPs and their speicific functions 
 ![image](https://user-images.githubusercontent.com/93033749/196317233-da4d5114-b32e-4df3-8f7c-08282a109cf5.png)
 ## Dependency
 biopython                     1.79
-Flask                         2.1.2
-Flask-PyMongo                 2.3.0
+  Flask                         2.1.2
+  Flask-PyMongo                 2.3.0
 pandas                        1.4.2
 scikit-learn                  1.1.1
 scipy                         1.8.1
