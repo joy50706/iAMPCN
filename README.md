@@ -39,6 +39,7 @@ pip install numpy
 pip install pandas
 pip install biopython
 pip install tqdm
+pip install -U scikit-learn
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 ## Usage
