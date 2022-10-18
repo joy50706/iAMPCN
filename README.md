@@ -57,3 +57,5 @@ or
 python predict.py -test_fasta_file {fasta file for predicting} -output_file_name {file name of prediction results}
 ```
 * using other files, just change the file name, the final prediction results will be saved using the '.csv' format.
+the predictive output file looks like this: 
+![image](https://user-images.githubusercontent.com/93033749/196341873-2d8adec5-7464-4eb8-bd1d-345ec00902d8.png)
