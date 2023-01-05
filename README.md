@@ -16,6 +16,8 @@ superior performances in identifying AMPs and their functional types compared wi
 an user-friendly web server based on this framework (http://iampcn.erc.monash.edu/) for the public to use. We sincerely hope iAMPCN serves 
 as a prominent tool for identiying potential AMPs and their speicific functions that can be experimentally validated.
 ![image](https://user-images.githubusercontent.com/93033749/196317233-da4d5114-b32e-4df3-8f7c-08282a109cf5.png)
+## Dataset
+https://drive.google.com/drive/folders/16GCaw51QJaiN3ypUwlQmehML--w3FBUd?usp=share_link
 ## Environment
 * Ubuntu
 * Anaconda
