@@ -217,5 +217,15 @@ if __name__ == '__main__':
 
     output_file_name=args.output_file_name
     test_file=args.test_fasta_file
-    pred_df=predict(test_file)
-    pred_df.to_csv(output_file_name+'.csv')
+    flag=0
+    for seq_record in SeqIO.parse(test_file, "fasta"):
+        temp_id=str(seq_record.id)
+        temp_seq=str(seq_record.seq)
+        if len(set(temp_seq.upper()).difference(set('ACDEFGHIKLMNPQRSTVWY')))>0:
+            flag=1
+            print('input error: have unusual amino acids')
+            break
+    
+    if flag==0:
+        pred_df=predict(test_file)
+        pred_df.to_csv(output_file_name+'.csv')
