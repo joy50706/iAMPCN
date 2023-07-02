@@ -62,4 +62,4 @@ python predict.py -test_fasta_file {fasta file for predicting} -output_file_name
 the predictive output file looks like this: 
 ![image](https://user-images.githubusercontent.com/93033749/196341873-2d8adec5-7464-4eb8-bd1d-345ec00902d8.png)
 ## Reference
-Xu, J. et al., iAMPCN: a deep-learning approach for identifying antimicrobial peptides and their functional activities. Briefings in Bioinformatics, submitted for publication. 
+Jing Xu and others, iAMPCN: a deep-learning approach for identifying antimicrobial peptides and their functional activities, Briefings in Bioinformatics, 2023;, bbad240, https://doi.org/10.1093/bib/bbad240
