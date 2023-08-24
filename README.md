@@ -16,6 +16,8 @@ superior performances in identifying AMPs and their functional types compared wi
 an user-friendly web server based on this framework (http://iampcn.erc.monash.edu/) for the public to use. We sincerely hope iAMPCN serves 
 as a prominent tool for identiying potential AMPs and their speicific functions that can be experimentally validated.
 ![image](https://user-images.githubusercontent.com/93033749/196317233-da4d5114-b32e-4df3-8f7c-08282a109cf5.png)
+## Datasets
+https://drive.google.com/drive/folders/16GCaw51QJaiN3ypUwlQmehML--w3FBUd?usp=share_link
 ## Environment
 * Ubuntu
 * Anaconda
@@ -60,3 +62,4 @@ python predict.py -test_fasta_file {fasta file for predicting} -output_file_name
 the predictive output file looks like this: 
 ![image](https://user-images.githubusercontent.com/93033749/196341873-2d8adec5-7464-4eb8-bd1d-345ec00902d8.png)
 ## Reference
+Xu, J., Li, F., Li, C., Guo, X., Landersdorfer, C., Shen, H. H., ... & Song, J. (2023). iAMPCN: a deep-learning approach for identifying antimicrobial peptides and their functional activities. Briefings in Bioinformatics, bbad240.
