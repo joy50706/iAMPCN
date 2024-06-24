@@ -144,7 +144,7 @@ def predict(test_file):
             os.mkdir('tmp_save/'+function_name)
         for cv_number in range(10):
             testing(testfasta=fas_seq,
-                    model_file=f'models/AMP_2nd/{function_name}/textcnn_cdhit_100_0.pth.tar',
+                    model_file=f'models/AMP_2nd/{function_name}/textcnn_cdhit_100_{cv_number}.pth.tar',
                     save_file=f'tmp_save/{function_name}/{temp_save_AMP_filename}_{cv_number}.csv',
                     batch_size=batch_size, patience=10, n_epochs=epochs,seq_len=seq_len,cdhit_value=cdhit_value,cv_number=cv_number)
     
